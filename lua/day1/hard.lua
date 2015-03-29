@@ -11,11 +11,6 @@ function reduce(max, init, f)
   return carry
 end
 
-function add(previous, current)
-  return previous + current
-end
-
-
 -- Implement factorial in terms of `reduce`
 
 function factorial(num)
